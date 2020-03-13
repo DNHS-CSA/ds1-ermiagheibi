@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04A81F9B34F2897AFDFD530C /* libPods-Project1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E5D3B07B60D92B0713357C /* libPods-Project1.0.a */; };
+		241F6BBC241A8DEE003CFC69 /* Celcuis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241F6BBB241A8DEE003CFC69 /* Celcuis.swift */; };
+		241F6BBE241A8E20003CFC69 /* Celcuis.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 241F6BBD241A8E20003CFC69 /* Celcuis.storyboard */; };
+		241F6BC0241A9582003CFC69 /* 85.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 241F6BBF241A9582003CFC69 /* 85.jpg */; };
+		241F6BC4241A9690003CFC69 /* Miles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241F6BC3241A9690003CFC69 /* Miles.swift */; };
 		24DF402924193CD600DCEE11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DF402824193CD600DCEE11 /* AppDelegate.swift */; };
 		24DF402B24193CD600DCEE11 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DF402A24193CD600DCEE11 /* SceneDelegate.swift */; };
 		24DF402D24193CD600DCEE11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DF402C24193CD600DCEE11 /* ViewController.swift */; };
@@ -15,6 +20,8 @@
 		24DF403524193CD900DCEE11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DF403324193CD900DCEE11 /* LaunchScreen.storyboard */; };
 		24DF404024193CDA00DCEE11 /* Project1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DF403F24193CDA00DCEE11 /* Project1_0Tests.swift */; };
 		24DF404B24193CDA00DCEE11 /* Project1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DF404A24193CDA00DCEE11 /* Project1_0UITests.swift */; };
+		24DF405C241941F300DCEE11 /* Pythagoras.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DF405B241941F200DCEE11 /* Pythagoras.storyboard */; };
+		24FB160F241BD9540077BEEF /* Miles.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FB160E241BD9540077BEEF /* Miles.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		241F6BBB241A8DEE003CFC69 /* Celcuis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Celcuis.swift; sourceTree = "<group>"; };
+		241F6BBD241A8E20003CFC69 /* Celcuis.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Celcuis.storyboard; sourceTree = "<group>"; };
+		241F6BBF241A9582003CFC69 /* 85.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 85.jpg; sourceTree = "<group>"; };
+		241F6BC3241A9690003CFC69 /* Miles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miles.swift; sourceTree = "<group>"; };
 		24DF402524193CD600DCEE11 /* Project1.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DF402824193CD600DCEE11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24DF402A24193CD600DCEE11 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,11 @@
 		24DF404624193CDA00DCEE11 /* Project1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project1.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DF404A24193CDA00DCEE11 /* Project1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1_0UITests.swift; sourceTree = "<group>"; };
 		24DF404C24193CDA00DCEE11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24DF405B241941F200DCEE11 /* Pythagoras.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Pythagoras.storyboard; path = "../../../Documents/PORTFOLIO-oldc/UI Portfolio/Views/Pythagoras.storyboard"; sourceTree = "<group>"; };
+		24FB160E241BD9540077BEEF /* Miles.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Miles.storyboard; sourceTree = "<group>"; };
+		901BF3D3F9D3C08D2A79C7A1 /* Pods-Project1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project1.0.debug.xcconfig"; path = "Target Support Files/Pods-Project1.0/Pods-Project1.0.debug.xcconfig"; sourceTree = "<group>"; };
+		C69AEF69C5D7DFCD1CDA2A07 /* Pods-Project1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project1.0.release.xcconfig"; path = "Target Support Files/Pods-Project1.0/Pods-Project1.0.release.xcconfig"; sourceTree = "<group>"; };
+		F4E5D3B07B60D92B0713357C /* libPods-Project1.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Project1.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04A81F9B34F2897AFDFD530C /* libPods-Project1.0.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,10 +96,14 @@
 		24DF401C24193CD600DCEE11 = {
 			isa = PBXGroup;
 			children = (
+				241F6BBF241A9582003CFC69 /* 85.jpg */,
+				24DF40582419408D00DCEE11 /* StoryBoards */,
 				24DF402724193CD600DCEE11 /* Project1.0 */,
 				24DF403E24193CDA00DCEE11 /* Project1.0Tests */,
 				24DF404924193CDA00DCEE11 /* Project1.0UITests */,
 				24DF402624193CD600DCEE11 /* Products */,
+				C8A697B27E816DD6D80D9D15 /* Pods */,
+				F0EE5042747B508665631BF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,9 +123,9 @@
 				24DF402824193CD600DCEE11 /* AppDelegate.swift */,
 				24DF402A24193CD600DCEE11 /* SceneDelegate.swift */,
 				24DF402C24193CD600DCEE11 /* ViewController.swift */,
-				24DF402E24193CD600DCEE11 /* Main.storyboard */,
+				241F6BBB241A8DEE003CFC69 /* Celcuis.swift */,
+				241F6BC3241A9690003CFC69 /* Miles.swift */,
 				24DF403124193CD900DCEE11 /* Assets.xcassets */,
-				24DF403324193CD900DCEE11 /* LaunchScreen.storyboard */,
 				24DF403624193CD900DCEE11 /* Info.plist */,
 			);
 			path = Project1.0;
@@ -128,6 +149,35 @@
 			path = Project1.0UITests;
 			sourceTree = "<group>";
 		};
+		24DF40582419408D00DCEE11 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				24DF402E24193CD600DCEE11 /* Main.storyboard */,
+				24DF403324193CD900DCEE11 /* LaunchScreen.storyboard */,
+				24DF405B241941F200DCEE11 /* Pythagoras.storyboard */,
+				241F6BBD241A8E20003CFC69 /* Celcuis.storyboard */,
+				24FB160E241BD9540077BEEF /* Miles.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		C8A697B27E816DD6D80D9D15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				901BF3D3F9D3C08D2A79C7A1 /* Pods-Project1.0.debug.xcconfig */,
+				C69AEF69C5D7DFCD1CDA2A07 /* Pods-Project1.0.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F0EE5042747B508665631BF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4E5D3B07B60D92B0713357C /* libPods-Project1.0.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +185,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24DF404F24193CDA00DCEE11 /* Build configuration list for PBXNativeTarget "Project1.0" */;
 			buildPhases = (
+				088EEF29AABB00989EC2BF36 /* [CP] Check Pods Manifest.lock */,
 				24DF402124193CD600DCEE11 /* Sources */,
 				24DF402224193CD600DCEE11 /* Frameworks */,
 				24DF402324193CD600DCEE11 /* Resources */,
@@ -232,8 +283,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				241F6BC0241A9582003CFC69 /* 85.jpg in Resources */,
 				24DF403524193CD900DCEE11 /* LaunchScreen.storyboard in Resources */,
+				24DF405C241941F300DCEE11 /* Pythagoras.storyboard in Resources */,
+				241F6BBE241A8E20003CFC69 /* Celcuis.storyboard in Resources */,
 				24DF403224193CD900DCEE11 /* Assets.xcassets in Resources */,
+				24FB160F241BD9540077BEEF /* Miles.storyboard in Resources */,
 				24DF403024193CD600DCEE11 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +309,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		088EEF29AABB00989EC2BF36 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Project1.0-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24DF402124193CD600DCEE11 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				241F6BBC241A8DEE003CFC69 /* Celcuis.swift in Sources */,
 				24DF402D24193CD600DCEE11 /* ViewController.swift in Sources */,
 				24DF402924193CD600DCEE11 /* AppDelegate.swift in Sources */,
 				24DF402B24193CD600DCEE11 /* SceneDelegate.swift in Sources */,
+				241F6BC4241A9690003CFC69 /* Miles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +514,7 @@
 		};
 		24DF405024193CDA00DCEE11 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 901BF3D3F9D3C08D2A79C7A1 /* Pods-Project1.0.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +532,7 @@
 		};
 		24DF405124193CDA00DCEE11 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C69AEF69C5D7DFCD1CDA2A07 /* Pods-Project1.0.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
