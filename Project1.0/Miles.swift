@@ -15,7 +15,7 @@ class MilesController: UIViewController {
     @IBOutlet weak var Miles: UITextField!
     @IBOutlet weak var Walk: UILabel!
     @IBOutlet weak var Bike: UILabel!
-    let foo = 0, false, "yes"
+    let foo = (0, false, "yes")
     // Loads at initialization
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,11 +37,12 @@ class MilesController: UIViewController {
         let B = (M! * (60/18))
         // Set calculation to screen
         Walk.text = String(W)
-        print(foo.0)
+        print(foo.1)
         print("Walk: \(Walk.text!)")
         Bike.text = String(B)
-
+        print("Bike: \(Bike.text!)")
        // print("Pyth  \(side3.text!)")
-    
+        print(foo.2)
+        
     }
 }
