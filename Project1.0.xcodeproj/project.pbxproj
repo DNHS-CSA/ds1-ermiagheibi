@@ -20,8 +20,8 @@
 		24DF403524193CD900DCEE11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DF403324193CD900DCEE11 /* LaunchScreen.storyboard */; };
 		24DF404024193CDA00DCEE11 /* Project1_0Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DF403F24193CDA00DCEE11 /* Project1_0Tests.swift */; };
 		24DF404B24193CDA00DCEE11 /* Project1_0UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DF404A24193CDA00DCEE11 /* Project1_0UITests.swift */; };
-		24DF405C241941F300DCEE11 /* Pythagoras.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24DF405B241941F200DCEE11 /* Pythagoras.storyboard */; };
 		24FB160F241BD9540077BEEF /* Miles.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24FB160E241BD9540077BEEF /* Miles.storyboard */; };
+		6D082C34241C7E47001E8B67 /* Pyth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D082C33241C7E47001E8B67 /* Pyth.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,8 +60,8 @@
 		24DF404624193CDA00DCEE11 /* Project1.0UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project1.0UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24DF404A24193CDA00DCEE11 /* Project1_0UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1_0UITests.swift; sourceTree = "<group>"; };
 		24DF404C24193CDA00DCEE11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		24DF405B241941F200DCEE11 /* Pythagoras.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Pythagoras.storyboard; path = "../../../Documents/PORTFOLIO-oldc/UI Portfolio/Views/Pythagoras.storyboard"; sourceTree = "<group>"; };
 		24FB160E241BD9540077BEEF /* Miles.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Miles.storyboard; sourceTree = "<group>"; };
+		6D082C33241C7E47001E8B67 /* Pyth.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Pyth.storyboard; sourceTree = "<group>"; };
 		901BF3D3F9D3C08D2A79C7A1 /* Pods-Project1.0.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project1.0.debug.xcconfig"; path = "Target Support Files/Pods-Project1.0/Pods-Project1.0.debug.xcconfig"; sourceTree = "<group>"; };
 		C69AEF69C5D7DFCD1CDA2A07 /* Pods-Project1.0.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project1.0.release.xcconfig"; path = "Target Support Files/Pods-Project1.0/Pods-Project1.0.release.xcconfig"; sourceTree = "<group>"; };
 		F4E5D3B07B60D92B0713357C /* libPods-Project1.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Project1.0.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -154,9 +154,9 @@
 			children = (
 				24DF402E24193CD600DCEE11 /* Main.storyboard */,
 				24DF403324193CD900DCEE11 /* LaunchScreen.storyboard */,
-				24DF405B241941F200DCEE11 /* Pythagoras.storyboard */,
 				241F6BBD241A8E20003CFC69 /* Celcuis.storyboard */,
 				24FB160E241BD9540077BEEF /* Miles.storyboard */,
+				6D082C33241C7E47001E8B67 /* Pyth.storyboard */,
 			);
 			path = StoryBoards;
 			sourceTree = "<group>";
@@ -285,11 +285,11 @@
 			files = (
 				241F6BC0241A9582003CFC69 /* 85.jpg in Resources */,
 				24DF403524193CD900DCEE11 /* LaunchScreen.storyboard in Resources */,
-				24DF405C241941F300DCEE11 /* Pythagoras.storyboard in Resources */,
 				241F6BBE241A8E20003CFC69 /* Celcuis.storyboard in Resources */,
 				24DF403224193CD900DCEE11 /* Assets.xcassets in Resources */,
 				24FB160F241BD9540077BEEF /* Miles.storyboard in Resources */,
 				24DF403024193CD600DCEE11 /* Main.storyboard in Resources */,
+				6D082C34241C7E47001E8B67 /* Pyth.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

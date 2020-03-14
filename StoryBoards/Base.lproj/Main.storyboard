@@ -72,10 +72,10 @@
             </objects>
             <point key="canvasLocation" x="659" y="259"/>
         </scene>
-        <!--Pythagoras-->
+        <!--Pyth-->
         <scene sceneID="GGo-B8-Z27">
             <objects>
-                <viewControllerPlaceholder storyboardName="Pythagoras" id="zmC-i7-Pfj" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Pyth" id="zmC-i7-Pfj" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oDd-XL-T3G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="689" y="113"/>

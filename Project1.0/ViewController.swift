@@ -15,7 +15,11 @@
         @IBOutlet weak var side1: UITextField!
         @IBOutlet weak var side2: UITextField!
         @IBOutlet weak var side3: UILabel!
-        
+        @IBOutlet var triangleA: UILabel!
+        @IBOutlet var triangleB: UILabel!
+        @IBOutlet var triangleC: UILabel!
+
+
         // Loads at initialization
         override func viewDidLoad() {
             super.viewDidLoad()
@@ -37,7 +41,11 @@
 
             // Set calculation to screen
             side3.text = String(s3)
-           // print("Pyth  \(side3.text!)")
+        
+            // update values on triangle
+            triangleA.text = side1.text
+            triangleB.text = side2.text
+            triangleC.text = side3.text
         
         }
     }
